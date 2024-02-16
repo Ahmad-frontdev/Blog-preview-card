@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: "Figtree", sans-serif;
+    background-color: #f4d04e;
+
+}
+.page{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.card{padding: 20px;
+    margin: auto;
+    margin-top: 150px;
+    margin-bottom: 20px;
+    height: 450px;
+    width: 300px;
+    background-color: white;
+    border-radius: 20px;
+    border: solid black 1px;
+    box-shadow:  8px 8px 0px 0px black;
+    
+}
+.illustration {
+    margin-right: 60px;
+    border-radius: 10px;
+    width: 258px;
+
+    
+}
+.learning{
+    border-radius: 5px;
+    margin-top: 15px;
+    padding: 3px 7px 3px 7px;
+    width: fit-content;
+    font-weight: 900;
+    background-color: #f4d04e ;
+
+}
+.date{
+    font-weight: 600;
+    margin-top:10px ;
+    font-size: small;
+}
+.skills{
+    font-weight: 900;
+    font-size: 20px;
+
+}
+.defination{
+    font-size: small;
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.463);
+    line-height: 15px;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+.avatar{
+    margin-right: 7px;
+    width: 35px;
+}
+
+.name{
+    color: black;
+        font-weight: 700;
+        text-decoration: none;
+     
+}
+
+@media(max-width:375px){
+
+}
